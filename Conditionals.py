@@ -16,3 +16,4 @@ elif(a==c):
 else: 
     print("contents differents")
 
+# PASAMOS AL CAPITULO 23
