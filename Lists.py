@@ -26,7 +26,7 @@ print(colors)
 
 # Bucle for 
 for total in colors :
-    print(total)
+    print("total",total)
 
 
  
