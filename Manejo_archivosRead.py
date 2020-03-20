@@ -7,3 +7,4 @@ texto=archivo_texto.read()
 archivo_texto.close()
 
 print(texto)
+print(texto)
