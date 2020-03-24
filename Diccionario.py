@@ -44,3 +44,12 @@ miDicccionario3 = {"Equipo":"Millos", "Estrellas":"15", "Campeonatos":[2012,2016
 print("\n",miDicccionario3)
 print("Campeonatos = ", miDicccionario3["Campeonatos"])
 print("Equipo = ", miDicccionario3["Equipo"])
+
+
+#Para imprimir la clave valor se hace uso de item
+miDicccionario4 = {"Hola":"1234", "casef":"aaaa"}
+
+
+#TENER EN CUENTA EL ITEMS Y EL FORMAT PARA IMPRIMIR EL CONTENIDO
+for clave,valor in miDicccionario4.items():
+    print("{} claves, contenido {}".format(clave, valor))
