@@ -1,0 +1,3 @@
+Contenido desde programa 1
+ Esta es la segunda linea
+Nueva linea anexada al fichero
