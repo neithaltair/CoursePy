@@ -14,3 +14,11 @@ serie = pd.Series(listaValores, index=listaIndic)
 
 print(serie)
 
+#Organizar la serie por el index
+print("\nOrden del index alfabeticamente =\n",serie.sort_index())
+
+#Ordenar la serie por los valores
+print("\nOrdena serie por los valores = \n",serie.sort_values())
+
+#Hacer un Ranking
+print("\nImprime un ranking = \n",serie.rank())

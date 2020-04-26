@@ -21,6 +21,7 @@ print("\nImprime una columna especifica =\n",serie['c1'])
 print("\nImprime columna e indice especificos =\n",serie['c1']['d'])
 
 #se puede hacer la seleccion de varias ade las columnas DOBLE COCHETE
+
 print("\nImprime varias columnas especificas =\n",serie[['c1','d1','e1']])
 
 #Seleccionar los valores de columna especifica mayores a:
