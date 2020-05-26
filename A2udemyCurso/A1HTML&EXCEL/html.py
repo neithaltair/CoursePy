@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-url = 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
+url = 'https://www.virustotal.com/gui/file/f4bbbf23177f13d499cfc59eb5cbd3bbb7ac2e0bbe899ab3f1315963bf58725d/details'
 
 dataFrame = pd.io.html.read_html(url)
 
