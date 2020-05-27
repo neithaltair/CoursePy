@@ -1,0 +1,12 @@
+CONTENIDO NUMPY
+1 = Obtener version y configuracion de numpy
+2 = Obtener informacion de la funcion add de numpy
+3 = Comprobar si un arreglo tiene elementos igual a cero 
+4 = Comprobar si en un arreglo existe un elemento distinto a cero
+5 = Comprobar si los elementos de un arreglo son finitos
+6 = Comprobar si los elementos de un arreglo son infinitos
+7 = Comprobar si los elementos de arraglo numpy son Nulos
+8 = Comprobar si cada elemento de un arreglo es un  Numero real, complejo o Escalar
+9 = Comprobar si dos arreglos son iguales bajo un grado de tolerancia 
+10 = Aplicar operadores relacionales a cada elemento de los arreglos 
+

@@ -1,0 +1,13 @@
+1 = Concatenar cadena de caracteres
+2 = Comparar cadena de caracteres
+3 = Buscar dentro de una cadena de caracteres
+4 = Extraes subcadena de caracteres
+5 = Remplazar texto en una cadena de caracteres
+6 = Invertir una cadena de caracteres
+7 = Remover espacio en blanco de una cadena de caracteres
+8 = Cambiar entre mayusculas y minusculas
+9 = Convertir cadenas de caracteres en valores numericos
+10 = Iterar una cadena de caracteres
+11 = Calcular estadisticas basicas sobre una cadena de caracteres
+12 = Codificar una cadena de caracteres en unicode
+13 = Mapear caracteres de un objeto string
