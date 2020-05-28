@@ -1,0 +1,10 @@
+1 = Crear numeros enteros
+2 = Crear numeros reales
+3 = Redondear reales a enteros
+4 = Formatear numeros
+5 = Decimales con precision Arbitraria
+6 = Obtener la hora y fecha actuales
+7 = Generar numeros aleatorios
+8 = Diferencia entre horas y fechas
+9 = Formatear fechas
+10 = Convertir cadenas en fecha y hora
