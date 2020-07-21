@@ -1,0 +1,8 @@
+1 = Iterar una lista
+2 = Extraer el contenido de un iterador 
+3 = Filtrar un iterador 
+4 = Iterar el contenido de un archivo
+5 = Iterar datos que no cuentan con iterador
+6 = modulo 
+
+MODULO ITER TOOLS 
