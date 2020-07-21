@@ -1,0 +1,110 @@
+A1Alarma = Alarma realizada en python
+A2URI = Ejercicios de uri judge
+
+A2 Numpy = CONTENIDO NUMPY
+    A1 Obtener version y configuracion de numpy
+    A2 Obtener informacion de la funcion add de numpy
+    A3 Comprobar si un arreglo tiene elementos igual a cero 
+    A4 Comprobar si en un arreglo existe un elemento distinto a cero
+    A5 Comprobar si los elementos de un arreglo son finitos
+    A6 Comprobar si los elementos de un arreglo son infinitos
+    A7 Comprobar si los elementos de arraglo numpy son Nulos
+    A8 Comprobar si cada elemento de un arreglo es un  Numero real, complejo o Escalar
+    A9 Comprobar si dos arreglos son iguales bajo un grado de tolerancia 
+    A10 Aplicar operadores relacionales a cada elemento de los arreglos 
+
+A2PildorasInformaticas = 
+    A1 calculos
+    A1 dist
+    A1 Interfaces
+    A1 Modulos
+    A1 paquete calculos
+    
+A2 Recetas = 
+    A1CadenaCaracteres
+        A1 Concatenar cadena de caracteres
+        A2 Comparar cadena de caracteres
+        A3 Buscar dentro de una cadena de caracteres
+        A4 Extraes subcadena de caracteres
+        A5 Remplazar texto en una cadena de caracteres
+        A6 Invertir una cadena de caracteres
+        A7 Remover espacio en blanco de una cadena de caracteres
+        A8 Cambiar entre mayusculas y minusculas
+        A9 Convertir cadenas de caracteres en valores numericos
+        A10 Iterar una cadena de caracteres
+        A11 Calcular estadisticas basicas sobre una cadena de caracteres
+        A12 Codificar una cadena de caracteres en unicode
+        A13 Mapear caracteres de un objeto string
+        
+    A2Numeros, horas y fechas
+        A1 Crear numeros enteros
+        A2 Crear numeros reales
+        A3 Redondear reales a enteros
+        A4 Formatear numeros
+        A5 Decimales con precision Arbitraria
+        A6 Obtener la hora y fecha actuales
+        A7 Generar numeros aleatorios
+        A8 Diferencia entre horas y fechas
+        A9 Formatear fechas
+        A10 Convertir cadenas en fecha y hora
+        
+    A3Iteraciones(incompleto)
+    
+    A4Archivos:
+        A1 copiar archivos
+        A2 mover archivos
+        A3 leer contenido de archivos
+        A4 leer contenido de archivos
+        A5 crear directorios
+        A6 obtener metadatos de carpeta
+        A7 iterar Contenido de directorio
+        A8 guardar Datos como objeto
+        A9 crear Archivo
+    
+    A5DataFrame
+        A1 
+        A2 crear dataFrame
+        A3 
+        A4 importar archivo csv
+        A5 guardar contenido dataFrame
+        A6 importar archivo Excel
+        A7 Guardar contenido DataFrame
+        A8 Explorar Registros DataFrame
+        A9 Estadisticas DataFrame
+        A10 Ordenar DAtos de un DataFrame
+        A11 Aplicar Funciones sobre filas o columnas
+        A12 Aplicar funciones a elementos DataFrame o series
+        
+A2Udemy Curso = 
+    
+        A1 bases de datos
+        A1 ejercicio modulo fichero
+        A1 expresiones regulares
+        A1 fecha y hora
+        A1 fichero
+        A1 funciones avanzadas
+        A1 generar documentacion
+        A1 gestion de errores
+        A1 HTML y EXcel
+        A1 interfaz grafica
+        A1 json
+        A1 modulo
+        A1 modulo pandas
+        A1 modulo numpy
+        A1 pruebas automaticas
+        A1 tratamientos de datos
+        A1 modulos seaborn
+        
+        
+AVirusTotal
+        malwareprueba
+        mn_ipextractor MISP
+        obtenerHash
+        Partes Codigo VT
+        
+Crypto
+        base64
+        de bytes a big integer
+        hexadecimal a bytes
+        prueba
+        
