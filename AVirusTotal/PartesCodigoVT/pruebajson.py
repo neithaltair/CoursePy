@@ -23,9 +23,5 @@ def leeJson():
     fichero.close()
 
 
-    # 8146d78ea1a2fd4b64edb1c0080465b5
-    #print ("MD5: ", data["results"]["md5"])
-    #print ("sha1: ", data["results"]["sha1"])
-    #print ("sha256: ", data["results"]["sha256"])
 if __name__ == "__main__":
     leeJson()
