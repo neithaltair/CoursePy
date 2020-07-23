@@ -19,4 +19,4 @@ class Empleado(Persona):
 
         self.salario = salario
 
-        
+         
