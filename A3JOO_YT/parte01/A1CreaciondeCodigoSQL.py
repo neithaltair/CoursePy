@@ -27,3 +27,19 @@ for t in tablas:
     print('Nombre objeto BD:', t[1])
     print('Nombre tabla:', t[2])
     print('Sentencia SQL:', t[4])
+
+#3
+#INSERCION DE DATOS para agregar EN LA BD
+datos = [('1001', 'Edward', 'Ortiz', 'Informatica', 5),
+        ('1002', 'Daniel', 'Lopez', 'Sistemas', 4),
+        ('1003', 'Ramiro', 'Arias', 'Software', 2),
+        ('1004', 'Julian', 'Bernal', 'Meca', 8)]
+
+#EL TRY ES POR SI NO HAY INTEGRIDAD DE DATOS
+#Codigo de error integrity error, se produce si la llave primaria se repite
+try:
+    sql = '''INSERT INTO estudiante (carnet, nombre, apellido, carrera, semestre) VALUES (?,?,?,?,?) '''
+
+    cursor.executemany((sql, datos))
+except sqlite3.IntegrityError as e:
+    print('Error SQLite:', e.args[0])  
