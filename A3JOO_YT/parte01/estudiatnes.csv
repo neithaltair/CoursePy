@@ -1,5 +1,5 @@
-,carnet,nombre,apellido,carrera,semestre
-0,1001,Edward,Ortiz,Informatica,5
-1,1002,Daniel,Lopez,Sistemas,4
-2,1003,Ramiro,Arias,Software,2
-3,1004,Julian,Bernal,Meca,8
+carnet,nombre,apellido,carrera,semestre
+1001,Edward,Ortiz,Informatica,5
+1002,Daniel,Lopez,Sistemas,4
+1003,Ramiro,Arias,Software,2
+1004,Julian,Bernal,Meca,8
