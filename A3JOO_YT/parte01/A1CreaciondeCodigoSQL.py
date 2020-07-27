@@ -56,3 +56,10 @@ print("\n", resultado)
 
 
 #5
+#Guardar el contenido de la tabla Estudiante en un archivo CSV con Pandas
+print()
+
+#Convertir datos de la BD en un archivo CSV
+sql = "SELECT * FROM estudiante"
+df = pd.read_sql_query(sql, conexion)
+df.to_csv('estudiatnes.csv')
