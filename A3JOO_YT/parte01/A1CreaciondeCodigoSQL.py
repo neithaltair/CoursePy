@@ -38,8 +38,21 @@ datos = [('1001', 'Edward', 'Ortiz', 'Informatica', 5),
 #EL TRY ES POR SI NO HAY INTEGRIDAD DE DATOS
 #Codigo de error integrity error, se produce si la llave primaria se repite
 try:
-    sql = '''INSERT INTO estudiante (carnet, nombre, apellido, carrera, semestre) VALUES (?,?,?,?,?) '''
+    sql = '''INSERT INTO estudiante (carnet, nombre, apellido, carrera, semestre) VALUES (?, ?, ?, ?, ?) '''
 
-    cursor.executemany((sql, datos))
+    cursor.executemany(sql, datos)
 except sqlite3.IntegrityError as e:
-    print('Error SQLite:', e.args[0])  
+    print('Error SQLite:', e.args[0])
+
+#Despues de realizar insercion de datos realizar commit
+conexion.commit()
+
+#4
+#Ejecutar la sentencia SQL para insertar registros y consultar por un Estudiante
+sql = "SELECT * FROM estudiante WHERE carnet='1004'"
+cursor.execute(sql)
+resultado = cursor.fetchall();
+print("\n", resultado)
+
+
+#5
