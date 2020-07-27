@@ -6,3 +6,13 @@ import feedparser
 url = 'https://github.com/neithaltair/CoursePy'
 respuesta = requests.get(url)
 print(respuesta)
+
+#Obtener todoo el codigo html de la pagina web
+print()
+
+html = respuesta.text
+print(html)
+print()
+
+#OBTENER LA RESPUESTA EN JSON
+print(respuesta.json)
