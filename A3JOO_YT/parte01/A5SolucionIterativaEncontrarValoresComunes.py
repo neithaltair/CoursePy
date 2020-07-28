@@ -54,3 +54,8 @@ resultado = [n1 for n2 in num2 for n1 in num1 if n1 == n2 and n1 not in intersec
 
 print(len(resultado))
 print(resultado)
+
+#Hallar la interseccion de dos conjuntos (grupos)
+resultado = set(num1) & set(num2)
+print("\n",len(resultado))
+print("Haciendo uso del set ",resultado)
