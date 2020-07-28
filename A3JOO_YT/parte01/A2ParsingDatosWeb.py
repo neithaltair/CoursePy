@@ -16,3 +16,13 @@ print()
 
 #OBTENER LA RESPUESTA EN JSON
 print(respuesta.json)
+
+#INFORMACION DE LOS HEADERS, ENCABEZADO DE RESPUESTA GENERADA POR SERVIDOR
+print()
+headers = respuesta.headers
+print(type(headers))
+print(headers)
+
+print()
+#CONSULTAR CODIFICACION
+print(respuesta.encoding)
