@@ -44,3 +44,13 @@ for n1 in num1:
 
 print(len(interseccion))
 print(interseccion)
+
+#CURSO-28: SOLUCION CON LISTAS DE COMPRENSION PARA HALLAR LA INTERSECCION
+# DE DOS LISTAS
+print()
+interseccion = []
+#En la variable resultado se realizara la ejecucion en una sola linea
+resultado = [n1 for n2 in num2 for n1 in num1 if n1 == n2 and n1 not in interseccion ]
+
+print(len(resultado))
+print(resultado)
