@@ -1,6 +1,7 @@
 #ESTADISTICA CON COUNTER Y NUMPY
 from collections import Counter
 import numpy as np
+from scipy import stats
 
 #Counter permite saber que cantidad de veces se repite una letra
 listaLetras = ['t', 'u', 't', 't', 'u', 't', 't', 'u', 't']
@@ -63,3 +64,9 @@ print('Promedio: %f' % promedio)
 print('Mediana %f' % media)
 print('Minimo %f' % minimo)
 print('Max %f' % maximo)
+
+print()
+
+#Calculo de moda de los valores de una lista con el modulo SCIPY
+moda = stats.mode(conteos)
+print('Moda: {}'.format(moda.mode[0]))
