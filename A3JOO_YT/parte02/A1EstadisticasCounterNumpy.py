@@ -1,6 +1,6 @@
 #ESTADISTICA CON COUNTER Y NUMPY
 from collections import Counter
-import numpy as pd
+import numpy as np
 
 #Counter permite saber que cantidad de veces se repite una letra
 listaLetras = ['t', 'u', 't', 't', 'u', 't', 't', 'u', 't']
@@ -49,4 +49,17 @@ print()
 conteos = [v for k, v in contador.most_common()]
 print(len(conteos))
 print(conteos)
- 
+
+
+#OPERACIONES ESTADISCTICAS BASICAS
+#CALCULAR PROMEDIO DE LOS CONTEOS
+
+promedio = np.mean(conteos)
+media = np.median(conteos)
+minimo = np.min(conteos)
+maximo = np.max(conteos)
+
+print('Promedio: %f' % promedio)
+print('Mediana %f' % media)
+print('Minimo %f' % minimo)
+print('Max %f' % maximo)
