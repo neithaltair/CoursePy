@@ -14,4 +14,19 @@ print(versionesLeng['PHP'])
 print(versionesLeng['Python'])
 print(versionesLeng['C# '])
 
+#35 = CONTEO DE OCURRENCIAS DE CADENA DE CARACTERES CON UN OBJETO DEFAULTDICT
+print()
 
+lenguajes = 'Python JS PHP C# Java C++ C PHP Python JS JS Java'
+#SE hace uso de split para separar las palabras por espacio
+lenguajes = lenguajes.split()
+print(lenguajes)
+
+conteo_lenguajes = defaultdict(int)
+for l in lenguajes:
+    conteo_lenguajes[l] += 1
+
+print(conteo_lenguajes)
+print(conteo_lenguajes['Python'])
+print(conteo_lenguajes['C'])
+print(conteo_lenguajes['Kotlin'])
